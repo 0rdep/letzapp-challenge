@@ -48,7 +48,7 @@ $ npm run test
 
 ## Building docker image
 ```bash
-$ docker-compose build
+$ docker-compose -f docker-compose.prod.yaml build
 ```
 
 ## Running app for production on docker
